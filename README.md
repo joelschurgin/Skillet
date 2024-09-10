@@ -1,5 +1,5 @@
 # Skillet
-Skillet is a VST3 audio plugin intended to be used in your Digital Audio Workstation (DAW) of choice. This plugin uses psychoacoustics to allow the user to "pan" vertically, i.e. move the sound above or below them. In order to achieve this effect, there are 3 components: a pinna filter, a floor bounce, and a chest bounce.
+Skillet is a VST3 audio plugin intended to be used in your Digital Audio Workstation (DAW) of choice. This plugin uses psychoacoustics to allow the user to "pan" vertically, i.e. move the sound above or below the listener. In order to achieve this effect, there are 3 components: a pinna filter, a floor bounce, and a chest bounce.
 1) The pinna filter is an EQ that models the shape of the ear. It either cuts or boosts high frequencies from about 8kHz to 10kHz based on whether or not the sound is above or below in order to model some of the resonances in our ears.
 2) The floor bounce is just a delay which decreases in the amount of time as the sound gets closer to the floor. In addition, higher sounds are quieter since the sound has to travel further till it reaches the ears.
 3) The chest bounce is also a delay, but includes a bandpass from about 1kHz to 3kHz to model how the chest absorbs the sound. This is a very subtle effect, but adds a lot to the believability.
